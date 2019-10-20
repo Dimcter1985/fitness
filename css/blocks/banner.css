@@ -1,0 +1,10 @@
+.banner {
+  width: 67%;
+  margin: 80px auto 60px;
+}
+
+.banner__image {
+  display: block;
+  width: 100%;
+
+}

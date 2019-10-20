@@ -1,0 +1,10 @@
+.autor {
+  font-size: 14px;
+  margin-left: 20x;
+}
+
+.autor__text--bold,
+.autor__link {
+  font-weight: bold;
+  color: #ffffff;
+}

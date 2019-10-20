@@ -1,0 +1,77 @@
+.nav__menu {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 2px;
+  padding-left: 33px;
+}
+
+.nav__item,
+.nav__link {
+  display: inline-flex;
+}
+
+.nav__item {
+  margin-right: 14px;
+}
+
+.nav__link::before {
+  content: "";
+  background: center center / contain no-repeat;
+  width: 20px;
+  height: 16px;
+  margin-right: 18px;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.nav__link:hover {
+  color: #E98D13;
+  transition: 0.3s;
+}
+
+.nav__item--active .nav__link {
+  color: #E98D13;
+}
+
+.nav__link--lightning::before {
+  background-image: url('../../images/main_icon.png');
+}
+
+.nav__link--star::before {
+  background-image: url('../../images/feed_icon.png');
+}
+
+.nav__link--dumbell::before {
+  background-image: url('../../images/service_icon.png');
+}
+
+.nav__link--lightning:hover:before {
+  background-image: url('../../images/main_orange.png');
+  transition: 0.3s;
+}
+
+.nav__link--star:hover:before {
+  background-image: url('../../images/feed_icon-orange.png');
+  transition: 0.3s;
+}
+
+.nav__link--dumbell:hover:before {
+  background-image: url('../../images/service_icon-orange.png');
+  transition: 0.3s;
+}
+
+.nav__item--active .nav__link--lightning:before {
+  background-image: url('../../images/main_orange.png');
+}
+
+.nav__item--active .nav__link--star:before {
+  background-image: url('../../images/feed_icon-orange.png');
+}
+
+.nav__item--active .nav__link--dumbell:before {
+  background-image: url('../../images/service_icon-orange.png');
+}

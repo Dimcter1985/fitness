@@ -1,0 +1,24 @@
+
+.contacts {
+  text-align: right;
+  font-style: normal;
+}
+
+.contacts_number,
+.contacts_schedule {
+  display: block;
+}
+
+.contacts_number {
+  font-size: 21px;
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+.contacts_schedule {
+  font-size: 14px;
+  font-weight: bold;
+  color: #b46f14;
+}

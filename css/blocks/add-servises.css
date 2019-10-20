@@ -1,0 +1,21 @@
+.additional-services {
+  background-image: url('../../images/pattern.png');
+  color: #FFFFFF;
+  margin-top: 59px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.7;
+  padding: 20px 0 30px;
+  font-weight: 500;
+}
+
+.additional__text {
+  width: 58%;
+}
+
+.additional__text--bold {
+  font-weight:bold;
+  color: #f89513;
+}

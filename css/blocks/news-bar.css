@@ -1,0 +1,34 @@
+.news-bar {
+  width: 15%;
+}
+
+.news-bar__title {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.news-bar__list {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.news-bar__item {
+  margin-top: 20px;
+}
+
+.news-bar__img {
+  max-width: 160px;
+  overflow: hidden;
+}
+
+.news-bar__img--min {
+  height: 121px;
+}
+
+.news-bar__pic {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}

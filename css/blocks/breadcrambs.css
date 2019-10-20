@@ -1,0 +1,32 @@
+.breadcrambs {
+  margin: 40px auto 10px;
+  width: 80%;
+}
+
+.breadcrambs__list {
+  display: flex;
+  font-style: italic;
+  font-size: 14px;
+}
+
+.breadcrambs__item:after {
+  content: '/';
+  color: #000;
+}
+
+.breadcrambs__link {
+  color: #f9aa42;
+}
+
+.breadcrambs__item--active:after {
+  display: none;
+}
+
+.breadcrambs__link--active {
+  text-decoration: none; 
+  color: #000;
+}
+
+
+
+

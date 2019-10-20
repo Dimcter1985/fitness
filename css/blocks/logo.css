@@ -1,0 +1,14 @@
+.header__container .logo {
+  color: #f89513;
+  font: 18px 'Gora Free', Helvetica, sans-serif;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+
+.footer__container .logo {
+  color: #f89513;
+  font: 18px 'Gora Free', Helvetica, sans-serif;
+  text-decoration: none;
+  letter-spacing: 2px;
+  padding-right: 65px;
+}
