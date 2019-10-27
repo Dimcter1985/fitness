@@ -1,6 +1,5 @@
-.servises__wrapper {
-  width: 80%;
-  margin: 0 auto;
+.servises {
+  padding: 0 20px 12px;
 }
 
 .servises__list {
@@ -10,13 +9,17 @@
 }
 
 .servises__item {
-  width: 28.5%;
+  width: 30%;
   margin-bottom: 47px;
-  margin-right: 60px;
+  margin-right: 41px;
 }
 
 .servises__item:nth-child(3n) {
   margin-right: 0;
+}
+
+.servises__item--bottom {
+  margin-bottom: 0;
 }
 
 .servis__pic {
@@ -48,6 +51,11 @@
   left: 0;
   right: 0;
   background: rgba(40, 40, 40, 0.5);
+}
+
+.servis__pic:hover:after {
+  background: transparent;
+  transition: 1s;
 }
 
 .servis__image {

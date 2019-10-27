@@ -1,22 +1,31 @@
 .partners {
-margin-top: -32px;
-margin-bottom: 30px;
+margin: 48px 0 26px;
+padding-top: 24px;
+padding-bottom: 25px;
+border: 1px solid #000000;
+}
+
+.partners .title {
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 1px;
+  margin-bottom: 48px;
 }
 
 .partners__list {
-  width: 95%;
-  margin: 70px auto 0;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  flex-direction: column;
 }
 
 .partners__item {
-  width: 26%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 47px;
+  margin-bottom: 59px;
+}
+
+.partners__item--last {
+  margin-bottom: 0px;
 }
 
 .partners__link {

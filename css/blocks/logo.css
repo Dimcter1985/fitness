@@ -10,5 +10,8 @@
   font: 18px 'Gora Free', Helvetica, sans-serif;
   text-decoration: none;
   letter-spacing: 2px;
-  padding-right: 65px;
+}
+.logo:hover {
+  color: #ffff;
+  transition: .3s;
 }

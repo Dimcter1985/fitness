@@ -1,0 +1,6 @@
+.sidebar {
+  flex-basis: 275px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 36px;
+}

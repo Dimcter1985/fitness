@@ -1,3 +1,8 @@
+.social {
+  text-align: center;
+  padding-left: 15px;
+}
+
 .social__item {
   display: inline-block;
 }
@@ -16,15 +21,52 @@
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background: #d0d0d0;
   line-height: 17px;
   margin-right: 6px;
   text-align: center;
+  position: relative;
 }
 
+.social__link::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+}
 
+.social__link--vk::after {
+  width: 12px;
+  height: 7px;
+  background: url(../../images/spritesheet.png) -89px -5px;
+}
+
+.social__link--fb::after {
+  width: 6px;
+  height: 13px;
+  background: url(../../images/spritesheet.png) -5px -5px;
+}
+
+.social__link--google::after {
+  width: 15px;
+  height: 9px;
+  background: url(../../images/spritesheet.png) -21px -5px;
+}
+
+.social__link--twitter::after {
+  width: 11px;
+  height: 9px;
+  background: url(../../images/spritesheet.png) -68px -5px;
+}
+
+.social__link--mail::after {
+  width: 12px;
+  height: 9px;
+  background: url(../../images/spritesheet.png) -46px -5px;
+}
 
 .social__link:hover {
-  background: #f89513;
+  background: #d0d0d0;
   transition: 0.3s;
 }

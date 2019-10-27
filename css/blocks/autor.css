@@ -8,3 +8,8 @@
   font-weight: bold;
   color: #ffffff;
 }
+
+.autor__link:hover {
+  transition: .3s;
+  color: #E98D13;
+}

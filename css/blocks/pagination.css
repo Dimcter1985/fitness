@@ -3,9 +3,10 @@
   font-family: 'Roboto', sans-serif;
   color: #6f6e6e;
   font-size: 14px;
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
+  margin-left: 198px;
 }
 
 .pagination__display {
@@ -28,6 +29,10 @@
   line-height: 25px;
 }
 
+.pagination__btn-prevue {
+  margin-right: 12px;
+}
+
 .pagination__link {
   display: block;
   width: 25px;
@@ -45,4 +50,9 @@
   color: #f89513;
   background: #27273e;
   border-radius: 3px;
+  transition: 0.3s;
+}
+
+.pagination__comments {
+  margin-left: 117px;
 }

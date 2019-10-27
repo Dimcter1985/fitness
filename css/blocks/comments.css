@@ -1,6 +1,5 @@
 .comments {
-  width: 80%;
-  margin: 0 auto;
+  padding-left: 20px;
 }
 
 .comments__list {
@@ -11,7 +10,6 @@
 
 .comments__item {
   display: flex;
-  justify-content: flex-start;
   position: relative;
   padding-bottom: 50px;
 }
@@ -26,12 +24,16 @@
   bottom: 11%;
 }
 
+.comments__item:last-child {
+  padding-bottom: 36px;
+}
+
 .comments__item:last-child:after {
   display: none;
 }
 
  .comments__pic{
-  max-width: 160px;
+  width: 172px;
   border-radius: 50%;
   overflow: hidden;
 }
@@ -45,7 +47,7 @@
 }
 
 .comments__info {
-  margin-left: 20px;
+  margin-left: 26px;
 }
 
 .comments__date {
