@@ -43,7 +43,7 @@
   z-index: 10;
 }
 
-.servis__pic::after {
+.servis__pic:after {
   content: '';
   position: absolute;
   top: 0;
